@@ -9,7 +9,7 @@ public class PaginationParentController {
     public list<SelectOption> selectedFieldList{get;set;}
     public list<String> initialSelectFieldForRemove{get;set;}
     
-    
+    // constructor
     public PaginationParentController(){
         getGlobelDescribe = new Map<String, Schema.SObjectType>();
         allObjectList = new list<SelectOption>();
