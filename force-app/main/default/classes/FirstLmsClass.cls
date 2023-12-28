@@ -1,6 +1,7 @@
 public class FirstLmsClass {
     public static Map<String,String> objectMap = new Map<String,String>();
     // method for get objects
+    // to the sir
     @AuraEnabled
     public static Map<String,String> getObjects(){
         list<String> ObjList = System.Label.Standard_Object.split(',');
