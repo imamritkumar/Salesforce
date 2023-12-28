@@ -21,7 +21,6 @@ public class FirstLmsClass {
             throw new AuraHandledException(e.getMessage());
         }
     }
-    // method for fields
     @AuraEnabled
     public static list<wrapper> getFields(String obj){
         list<wrapper> fieldMap = new list<wrapper>();
