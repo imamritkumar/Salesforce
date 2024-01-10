@@ -1,0 +1,7 @@
+<template>
+    <div class="slds-p-around_medium lgc-bg slds-text-heading_medium slds-m-bottom_medium">
+        Parent Component
+        <lightning-input type="text" label="Enter some text" placeholder="type here..." onchange={handleInputChange} value={tempVariable}></lightning-input>
+    </div>
+    <c-Child-Component temp-variable={tempVariable} onselection={selectedNavHandler}></c-Child-Component>
+</template>
